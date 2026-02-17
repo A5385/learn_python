@@ -1,6 +1,11 @@
-# ---------------
-# --- Numbers ---
-# ---------------
+# ------------------------------------------------
+# ------------------- Numbers -------------------
+# ------------------------------------------------
+# Numbers Types => Integer - Float - Complex
+# [1] You can convert from int to float or complex
+# [2] You can Convert from float to int or complex
+# [3] You cannot convert complex to any type
+# ------------------------------------------------
 
 # Integer
 print(type(1))
@@ -24,17 +29,17 @@ print("Imaginary Part is: {}".format(myComplexNumber.imag))
 
 
 # [1] You can convert from int to float or complex
-# [2] You can Convert from float to int or complex
-# [3] You cannot convert complex to any type
 
 print(100)
 print(float(100))
 print(complex(100))
 
+# [2] You can Convert from float to int or complex
 print(10.50)
 print(int(10.50))
 print(complex(10.50))
 
+# [3] You cannot convert complex to any type
 print(10+9j)
 print(int(10+9j))
 print(float(10+9j))

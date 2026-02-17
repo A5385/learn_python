@@ -1,6 +1,32 @@
 # --------------------------------
 # --- Strings Methods (part I) ---
 # --------------------------------
+# [1] len() => get string length
+# [2] strip() rstrip() lstrip() => remove space ( by default if not add certain value) and r from right and l from left and without r/l form both
+# [3] title() => convert first char to uppercase and the char after number to uppercase
+# [4] Capitalize() => Convert first char to uppercase 
+# [5] zfill
+# [6] upper()
+# [7] lower()
+# [8] split() rsplit() => by default split elements by space unless you assign specific char and return list of element
+# [9] center() => take 2 args 1st is mandatory the number of char 2nd is optional and by default white space " " and you can specify char like $ # 
+# [10] count()
+# [11] swapcase()
+# [12] startswith()
+# [13] endswith()
+# [14] index(SubString, Start, End) => SubString is mandatory, start and end is optional
+# [15] find(SubString, Start, End) => SubString is mandatory, start and end is optional
+# [16] rjust(width, fill char) lJust(width, fill char) => width is mandatory, fill char is optional and add " " by default
+# [17] splitlines() => return list separate by new line
+# [18] expandtabs()
+# [19] istitle() => return boolean
+# [20] isspace() => return boolean
+# [21] islower() => return boolean
+# [22] isidentifier => return boolean
+# [23] isalpha() => return boolean
+# [24] isalnum => return boolean
+# [25] replace(old value, new value, count)
+# [26] join(Iterable)
 
 a = "I Love Python"
 b = "        I Love Python         "
@@ -158,6 +184,7 @@ print(five.islower())
 print(six.islower())
 
 # [22] isidentifier => return boolean
+
 
 seven = "osama_elzero"
 eight = "osamaElzero100"

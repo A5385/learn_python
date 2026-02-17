@@ -1,6 +1,13 @@
-# -------------
-# --- Lists ---
-# -------------
+# ---------------------------------------------------------
+# ------------------------- Lists -------------------------
+# ---------------------------------------------------------
+# [1] List items are enclosed in square brackets
+# [2] List are ordered, to use index to access item
+# [3] List are mutable => add , delete, edit
+# [4] List items is not unique
+# [5] List can have different data types
+# ---------------------------------------------------------
+
 # [1] List items are enclosed in square brackets
 myAwesomeList = []
 

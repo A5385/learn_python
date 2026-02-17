@@ -1,6 +1,15 @@
-# ------------------------------
-# --- Tuple - Part I ---
-# ------------------------------
+# -------------------------------------------------------------
+# --------------------------- Tuple ---------------------------
+# -------------------------------------------------------------
+# [1] Tuple items are enclosed in parentheses
+# [2] You can remove the parentheses if you want
+# [3] Tuple are ordered, to use index to access item
+# [4] Tuple are immutable => you cannot add or delete
+# [5] Tuple items is not unique
+# [6] Tuple can have different data types
+# [7] Operators used in strings and lists available in tuples
+# [8] Tuple with One Element
+# -------------------------------------------------------------
 
 # [1] Tuple items are enclosed in parentheses
 myTupleOne = ("Osama","Ahmed")
@@ -24,10 +33,25 @@ myTupleFour = (1,2,3,4,5)
 # print(myTupleFour) 
 
 # [5] Tuple items is not unique
-myTupleFive = ("Osama","Osama",1,2,3,100.5,True)
+myTupleFive = (1,2,3,4,1,2,3,4)
 print(myTupleFive[1])
 print(myTupleFive[-1])
 
 # [6] Tuple can have different data types
-myTupleSix = ()
-# [7] 
+myTupleSix = ("Osama","Osama",1,2,3,100.5,True)
+print(myTupleSix)
+
+# [8] Tuple with One Element
+myTuple1 = ("Osama",)
+myTuple2 = "Osama",
+
+print(myTuple1)
+print(myTuple2)
+
+print(type(myTuple1))
+print(type(myTuple2))
+
+print(len(myTuple1))
+print(len(myTuple2))
+
+

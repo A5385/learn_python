@@ -1,6 +1,14 @@
 # ----------------------------
 # --- Arithmetic Operators ---
 # ----------------------------
+# [+] Addition
+# [-] Subtraction
+# [*] Multiplication
+# [/] Division
+# [%] Modulus
+# [**] Exponent
+# [//] Floor Division 
+# ----------------------------
 
 # [+] Addition
 print(10 + 30) # 40
