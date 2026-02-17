@@ -1,0 +1,33 @@
+# ------------------------------
+# --- Tuple - Part I ---
+# ------------------------------
+
+# [1] Tuple items are enclosed in parentheses
+myTupleOne = ("Osama","Ahmed")
+print(myTupleOne)
+print(type(myTupleOne))
+
+# [2] You can remove the parentheses if you want
+myTupleTwo = "Ahmed","Osama"
+print(myTupleTwo)
+print(type(myTupleTwo))
+
+# [3] Tuple are ordered, to use index to access item
+myTupleThree = (1,2,3,4,5)
+print(myTupleThree[0])
+print(myTupleThree[-1])
+print(myTupleThree[-3])
+
+# [4] Tuple are immutable => you cannot add or delete
+myTupleFour = (1,2,3,4,5)
+# myTupleFour[2] = "Three" #  'tuple' object does not support item assignment
+# print(myTupleFour) 
+
+# [5] Tuple items is not unique
+myTupleFive = ("Osama","Osama",1,2,3,100.5,True)
+print(myTupleFive[1])
+print(myTupleFive[-1])
+
+# [6] Tuple can have different data types
+myTupleSix = ()
+# [7] 
