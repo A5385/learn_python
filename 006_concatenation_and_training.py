@@ -7,7 +7,7 @@ lang = "Python"
 
 print(msg + " " + lang)
 
-full = msg + " " + lang 
+full = msg + " " + lang
 print(full)
 
 a = "First \
@@ -20,4 +20,4 @@ C"
 
 print(a + "\n" + b)
 
-print("Hello " + 1) # Error cannot concatenate string with number
+print("Hello " + 1)  # Error cannot concatenate string with number

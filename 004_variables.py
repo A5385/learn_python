@@ -17,9 +17,9 @@ my100_Variable = "My Value"
 print(myVariable)
 
 # best practice naming variables
-name = "Ahmed Khaled" # Single word => Normal
-myName = "Ahmed Khaled" # Two words => camelCase
-my_name = "Ahmed Khaled" # Two words => snake_case
+name = "Ahmed Khaled"  # Single word => Normal
+myName = "Ahmed Khaled"  # Two words => camelCase
+my_name = "Ahmed Khaled"  # Two words => snake_case
 
 # Source Code : Original code you write it in computer
 # Translation : Converting source code into machine language
@@ -36,7 +36,7 @@ x = "Hello"
 print(x)
 
 # we can know the reserved keywords by type
-help('keywords')
+help("keywords")
 
 a, b, c = 1, 2, 3
 print(a)

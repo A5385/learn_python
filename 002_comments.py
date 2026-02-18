@@ -6,11 +6,11 @@
 # why the file created
 # Write beside the programming line
 # Write before hte programming line
-# prevent code from run 
+# prevent code from run
 # --------------------------
 
-# This is Comment 
-print("I love Python") # This is inline comment
+# This is Comment
+print("I love Python")  # This is inline comment
 
 # print("I love Python")
 

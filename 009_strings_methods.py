@@ -4,12 +4,12 @@
 # [1] len() => get string length
 # [2] strip() rstrip() lstrip() => remove space ( by default if not add certain value) and r from right and l from left and without r/l form both
 # [3] title() => convert first char to uppercase and the char after number to uppercase
-# [4] Capitalize() => Convert first char to uppercase 
+# [4] Capitalize() => Convert first char to uppercase
 # [5] zfill
 # [6] upper()
 # [7] lower()
 # [8] split() rsplit() => by default split elements by space unless you assign specific char and return list of element
-# [9] center() => take 2 args 1st is mandatory the number of char 2nd is optional and by default white space " " and you can specify char like $ # 
+# [9] center() => take 2 args 1st is mandatory the number of char 2nd is optional and by default white space " " and you can specify char like $ #
 # [10] count()
 # [11] swapcase()
 # [12] startswith()
@@ -36,29 +36,29 @@ print(len(a))
 print(len(b))
 
 # [2] strip() rstrip() lstrip() => remove space ( by default if not add certain value) and r from right and l from left and without r/l form both
-print(b.strip()) # => I Love Python
-print(b.rstrip()) # => I Love Python         
-print(b.lstrip()) # =>         I Love Python
+print(b.strip())  # => I Love Python
+print(b.rstrip())  # => I Love Python
+print(b.lstrip())  # =>         I Love Python
 
 b = "#########I Love Python#########"
-print(b.strip("#")) # => I Love Python
-print(b.rstrip("#")) # => I Love Python         
-print(b.lstrip("#")) # =>         I Love Python
+print(b.strip("#"))  # => I Love Python
+print(b.rstrip("#"))  # => I Love Python
+print(b.lstrip("#"))  # =>         I Love Python
 
 b = "@@###I Love Python@@###$"
-print(b.strip("#@$")) # => I Love Python
-print(b.rstrip("#@")) # => I Love Python         
-print(b.lstrip("#@")) # =>         I Love Python
+print(b.strip("#@$"))  # => I Love Python
+print(b.rstrip("#@"))  # => I Love Python
+print(b.lstrip("#@"))  # =>         I Love Python
 
 c = "i love 2d Graphics and 3g Technology and python"
 # [3] title() => convert first char to uppercase and the char after number to uppercase
 print(c.title())
 
-# [4] Capitalize() => Convert first char to uppercase 
+# [4] Capitalize() => Convert first char to uppercase
 print(c.capitalize())
 
 # [5] zfill
-c, d, e, f = "1", "11", "111","1111"
+c, d, e, f = "1", "11", "111", "1111"
 print(c)
 print(d)
 print(e)
@@ -88,22 +88,22 @@ a = "I-Love-Python-and-PHP"
 print(a.split("-"))
 
 a = "I-Love-Python-and-PHP"
-print(a.split("-",2))
+print(a.split("-", 2))
 
 
-print(a.rsplit("-",2))
+print(a.rsplit("-", 2))
 
-# [9] center() => take 2 args 1st is mandatory the number of char 2nd is optional and by default white space " " and you can specify char like $ # 
+# [9] center() => take 2 args 1st is mandatory the number of char 2nd is optional and by default white space " " and you can specify char like $ #
 
 b = "Ahmed"
 print(b.center(9))
-print(b.center(9,"~"))
+print(b.center(9, "~"))
 
 # [10] count()
 c = "I Love Python because Python is easy"
 print(c.count(" "))
 print(c.count("Python"))
-print(c.count("Python", 0 ,13))
+print(c.count("Python", 0, 13))
 
 # [11] swapcase()
 d = "I Love Python"
@@ -116,37 +116,37 @@ d = "I Love Python"
 print(d.startswith("I"))
 print(d.startswith("S"))
 
-print(d.startswith("P",7,12))
+print(d.startswith("P", 7, 12))
 
 # [13] endswith()
 e = "I Love Python"
 print(e.endswith("n"))
 print(e.endswith("N"))
-print(e.endswith("e",2,6))
+print(e.endswith("e", 2, 6))
 
 # [14] index(SubString, Start, End) => SubString is mandatory, start and end is optional
 a = "I Love Python"
 
-print(a.index("P")) # Index Number 7
-print(a.index("P", 0, 10)) # Index Number 7
+print(a.index("P"))  # Index Number 7
+print(a.index("P", 0, 10))  # Index Number 7
 # print(a.index("P", 0, 5)) # Through Error
 
 # [15] find(SubString, Start, End) => SubString is mandatory, start and end is optional
 b = "I Love Python"
 
-print(b.find("P")) # Index Number 7
-print(b.find("P", 0, 10)) # Index Number 7
-print(b.find("P", 0, 5)) # -1
+print(b.find("P"))  # Index Number 7
+print(b.find("P", 0, 10))  # Index Number 7
+print(b.find("P", 0, 5))  # -1
 
 # [16] rjust(width, fill char) lJust(width, fill char) => width is mandatory, fill char is optional and add " " by default
 
 c = "Ahmed"
 print(c.rjust(10))
-print(c.rjust(10,"#"))
+print(c.rjust(10, "#"))
 
-d= "Ahmed"
+d = "Ahmed"
 print(d.ljust(10))
-print(d.ljust(10,"#"))
+print(d.ljust(10, "#"))
 
 # [17] splitlines() => return list separate by new line
 
@@ -178,7 +178,7 @@ print(three.isspace())
 print(four.isspace())
 
 # [21] islower() => return boolean
-five = 'i love python'
+five = "i love python"
 six = "I Love Python"
 print(five.islower())
 print(six.islower())
@@ -214,15 +214,13 @@ print(e.isalnum())
 
 # [25] replace(old value, new value, count)
 a = "Hello One Two Three One One"
-print(a.replace("One","1"))
-print(a.replace("One","1",1))
-print(a.replace("One","1",2))
+print(a.replace("One", "1"))
+print(a.replace("One", "1", 1))
+print(a.replace("One", "1", 2))
 
 # [26] join(Iterable)
-myList = ["Ahmed","Osama","Khaled"]
+myList = ["Ahmed", "Osama", "Khaled"]
 print("-".join(myList))
 print(" ".join(myList))
 print(", ".join(myList))
 print(type(", ".join(myList)))
-
-

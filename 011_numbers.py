@@ -22,7 +22,7 @@ print(type(0.99))
 print(type(-0.99))
 
 # Complex
-myComplexNumber = 5+6j
+myComplexNumber = 5 + 6j
 print(type(myComplexNumber))
 print("Real Part is: {}".format(myComplexNumber.real))
 print("Imaginary Part is: {}".format(myComplexNumber.imag))
@@ -40,6 +40,6 @@ print(int(10.50))
 print(complex(10.50))
 
 # [3] You cannot convert complex to any type
-print(10+9j)
-print(int(10+9j))
-print(float(10+9j))
+print(10 + 9j)
+print(int(10 + 9j))
+print(float(10 + 9j))

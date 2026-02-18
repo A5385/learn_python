@@ -2,7 +2,7 @@
 # --- Strings ---
 # ---------------
 
-myStringOne = 'This is Single Quote'
+myStringOne = "This is Single Quote"
 myStringTwo = "This is Double Quotes"
 
 print(myStringOne)
@@ -17,9 +17,9 @@ print(myStringFour)
 myStringFive = """First
 Second 'Test' "Test"
 Third"""
-myStringSix = '''First
+myStringSix = """First
 Second "Test" \\\ 'Test'
-Third'''
+Third"""
 
 print(myStringFive)
 print(myStringSix)
