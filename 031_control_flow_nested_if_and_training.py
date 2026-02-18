@@ -1,11 +1,10 @@
 # ----------------------------------------------------
 # ------------- Control Flow - Nested If -------------
 # ----------------------------------------------------
-sep = "#" * 60
 
 uName = "Ahmed"
 uCountry = "Egypt"
-isStudent = "ds"
+isStudent = "Yes"
 cName = "Python Course"
 cPrice = 100
 
@@ -25,8 +24,3 @@ elif uCountry == "Kuwait" or uCountry == "Bahrain":
 else:
     print(f"Hello {uName} because you are from {uCountry}")
     print(f'the course "{cName}" price is: ${cPrice - 30} ')
-
-
-###############################################################
-print(sep)  ###################################################
-###############################################################
